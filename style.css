@@ -11,11 +11,14 @@ body {
 .navbar {
     display: flex;
     position: sticky;
+    top: 0px;
+    width: 100vw;
     justify-content: space-between;
     align-items: center;
     background-color: #adc178;
     color: white;
     margin-bottom: 3rem;
+    z-index: 1;
 }
 
 .brand {
@@ -145,11 +148,11 @@ body {
 .gallery li {
     box-shadow: 4px 5px 14px -2px rgba(0,0,0,0.47);
     height: 22.5em;
+    max-width: ;
 }
 
 .gallery img {
     height: 22.5em;
-    max-width: 30rem;
 }
 
 .gallery-top-bar {
@@ -181,6 +184,7 @@ body {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        margin-bottom: 0;
     }
 
     .navbar-links ul {
@@ -214,6 +218,18 @@ body {
         text-align: center;
         width: 100%;
         font-size: 1em;
+    }
+
+    .gallery ul {
+        width: 95%;
+    }
+
+    .gallery li {
+        width: 95%;
+    }
+
+    .gallery img {
+        width: 100%;
     }
 }
 
