@@ -199,5 +199,19 @@ body {
     .navbar-links.active {
         display: flex;
     }
+
+    .hero h1 {
+        text-align: center;
+    }
+
+    .hero p {
+        text-align: center;
+    }
+
+    .gallery-top-bar{
+        text-align: center;
+        width: 100%;
+        font-size: 1em;
+    }
 }
 
